@@ -1,6 +1,8 @@
-function calculateNumber(var1, var2)
+function calculateNumbers(var1, var2)
 {
-    return Math.round(var1) + Math.round(var2);
+    var total = var1 + var2;
+    return total;
 }
 
-console.log(calculateNumber(1, 3));
+var result = calculateNumbers(1, 2);
+console.log(result);
